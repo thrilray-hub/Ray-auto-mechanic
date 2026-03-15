@@ -1,0 +1,176 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.logo {
+  font-size: 1.5rem;
+  text-decoration: none;
+  color: greenyellow;
+  background: rgba(35, 35, 236, 0.929);
+  padding: 15px;
+}
+.icon {
+  width: 24px;
+}
+header {
+  background-image: url("/images/background.webp");
+  background-size: cover;
+  height: 80vh;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+header h1 {
+  background: rgba(35, 35, 236, 0.4);
+  display: inline-block;
+  color: white;
+  border-radius: 10px;
+}
+.header-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: rgba(35, 35, 236, 0.8);
+  padding: 15px;
+  width: 100%;
+}
+
+header h1 {
+  font-size: 2.5rem;
+}
+.header-cap {
+  width: 30%;
+  background: rgb(60, 60, 241, 0.4);
+  border-radius: 10px;
+  color: white;
+  padding: 20px;
+  margin: 3%;
+  text-align: left;
+}
+.header-cap h2 {
+  font-size: 2.1rem;
+  text-transform: capitalize;
+}
+.header-cap p {
+  font-size: 0.9rem;
+  margin-bottom: 10%;
+}
+
+.btn {
+  background: #d32f2f;
+  color: white;
+  text-transform: capitalize;
+  padding: 13px 20px;
+  text-decoration: none;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.btn-trans {
+  color: white;
+  text-transform: capitalize;
+  padding: 13px 20px;
+  text-decoration: none;
+  border: 1px solid white;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 20px;
+}
+nav {
+  margin-right: 20px;
+}
+nav a {
+  color: white;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+section {
+  padding: 30px;
+}
+
+.card-heading {
+  font-size: 3rem;
+  font-weight: 500;
+  text-align: center;
+  text-transform: capitalize;
+}
+.card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 10%;
+}
+.card-part {
+  width: 50%;
+}
+.card-part img {
+  width: 90%;
+  height: 300px;
+  border-radius: 10px;
+}
+
+footer {
+  background: #f4f4f4;
+  text-align: center;
+  padding: 10px;
+}
+/* AI Chat Widget */
+#chat-toggle {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: #d32f2f;
+  color: white;
+  padding: 12px;
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+#chat-widget {
+  position: fixed;
+  bottom: 80px;
+  right: 20px;
+  width: 300px;
+  background: white;
+  border: 1px solid #ccc;
+  display: none;
+  flex-direction: column;
+}
+
+#chat-header {
+  background: #1e1e1e;
+  color: white;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+#chat-close {
+  cursor: pointer;
+}
+
+#chat-messages {
+  padding: 10px;
+  height: 250px;
+  overflow-y: auto;
+  font-size: 14px;
+}
+
+#chat-input {
+  display: flex;
+  border-top: 1px solid #ccc;
+}
+
+#chat-input input {
+  flex: 1;
+  padding: 8px;
+  border: none;
+}
+
+#chat-input button {
+  padding: 8px 12px;
+}
+
