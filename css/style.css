@@ -15,9 +15,9 @@ body {
   width: 24px;
 }
 header {
-  background-image: url("/Ray-auto-mechanic/images/background.webp");
+  background-image: url("/images/background.webp");
   background-size: cover;
-  height: 80vh;
+  height: 85vh;
   background-repeat: no-repeat;
   text-align: center;
 }
@@ -45,7 +45,7 @@ header h1 {
   border-radius: 10px;
   color: white;
   padding: 30px;
-  margin: 3%;
+  margin: 7% 3%;
   text-align: left;
 }
 .header-cap h2 {
@@ -60,6 +60,8 @@ header h1 {
 .btn {
   background: #d32f2f;
   color: white;
+  font-size: 1.3rem;
+  font-weight: 600;
   text-transform: capitalize;
   padding: 13px 20px;
   text-decoration: none;
@@ -69,6 +71,8 @@ header h1 {
 }
 .btn-trans {
   color: white;
+  font-size: 1.3rem;
+  font-weight: 600;
   text-transform: capitalize;
   padding: 13px 20px;
   text-decoration: none;
@@ -119,6 +123,78 @@ nav a {
   background: rgb(193, 229, 240);
   padding: 10px;
   border-radius: 5px;
+}
+
+.our-expertise {
+  text-align: center;
+}
+.our-expertise h3 {
+  font-size: 2rem;
+}
+.list {
+  display: flex;
+  justify-content: space-between;
+  margin: 30px;
+  margin-left: 5%;
+}
+.list div {
+  padding: 5px;
+}
+.list img {
+  width: 90%;
+  height: 180px;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+}
+.list h4 {
+  font-size: 1.2rem;
+}
+.list p {
+  font-weight: lighter;
+}
+
+.reviews {
+  display: flex;
+  margin-bottom: 8%;
+ 
+}
+.reviews div {
+  width: 84%;
+  margin-left: 30px;
+}
+.reviews img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 0;
+}
+.reviews-tag {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.reviews-tag h5, .reviews-tag p {
+  margin: 5px;
+}
+.reviews i {
+  color: rgb(22, 22, 200);
+}
+h4 {
+  font-size: 2.5rem;
+  text-align: center;
+  text-transform: capitalize;
+  margin: 5%;
+}
+
+.ready {
+  text-align: center;
+  background: blue;
+  color: whitesmoke;
+  padding: 40px;
+  width: 100%;
+}
+.ready h4, .ready p {
+  margin-bottom: 4%;
 }
 
 section {
