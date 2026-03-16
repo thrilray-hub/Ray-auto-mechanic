@@ -1,5 +1,5 @@
 body {
-  font-family: Arial, sans-serif;
+  font-family: 'Popping', sans-serif;
   margin: 0;
   padding: 0;
 }
@@ -44,7 +44,7 @@ header h1 {
   background: rgb(60, 60, 241, 0.4);
   border-radius: 10px;
   color: white;
-  padding: 20px;
+  padding: 30px;
   margin: 3%;
   text-align: left;
 }
@@ -85,9 +85,44 @@ nav a {
   margin: 0 10px;
   text-decoration: none;
 }
+.hero {
+  width: 40%;
+}
+.hero h2 {
+  font-size: 3rem;
+  font-weight: 600;
+}
+.hero p {
+  font-weight: 100;
+}
+
+.statement {
+  display: flex;
+  justify-content: space-between;
+}
+.expert {
+  width: 20%;
+  padding: 45px;
+  background: rgb(230, 240, 244);
+  border-radius: 10px;
+}
+.expert h3 {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+.expert p {
+  font-weight: 300;
+}
+.icon-e {
+  width: 32px;
+  color: darkblue;
+  background: rgb(193, 229, 240);
+  padding: 10px;
+  border-radius: 5px;
+}
 
 section {
-  padding: 30px;
+  padding: 40px;
 }
 
 .card-heading {
