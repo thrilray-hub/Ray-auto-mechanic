@@ -19,7 +19,7 @@ body {
   width: 24px;
 }
 header {
-  background-image: url("/Ray-auto-mechanic/images/background.webp");
+  background-image: url("/images/background.webp");
   background-size: cover;
   height: 85vh;
   background-repeat: no-repeat;
@@ -199,7 +199,7 @@ section {
   color: rgb(22, 22, 200);
 }
 i {
-  color: blue;
+  color: darkblue;
 }
 h4 {
   font-size: 2.5rem;
@@ -331,7 +331,52 @@ h5 span {
   padding: 20px;
 }
 
-/* Services */
+/* Services */ 
+.professional {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 7%;
+}
+.professional-div {
+  width: 75%;
+}
+.professional-div span {
+  color: rgb(6, 6, 186);
+}
+.professional-div h2 {
+  font-size: 3rem;
+  font-weight: 900;
+  margin: 3% 0%;
+}
+.certified {
+  background: rgb(253, 218, 222);
+  color: rgb(151, 3, 3);
+  padding: 8px;
+  border-radius: 15px;
+}
+.nav-btn ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 7% 0%;
+}
+.nav-btn ul li {
+  padding: 15px 20px;
+  background: rgb(233, 236, 236);
+  border: 1px solid rgb(190, 190, 190);
+  border-radius: 20px;
+  list-style: none;
+  cursor: pointer;
+}
+
+.nav-btn {
+  width: 100%;
+}
+.btn i {
+  color: white;
+}
+
 .footer-s {
   background: whitesmoke;
   color: rgb(3, 3, 62);
@@ -360,7 +405,7 @@ h5 span {
   justify-content: space-between;
   align-items: center;
   margin: 0%;
-  background: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.7)), url("/Ray-auto-mechanic/images/car-background.webp");
+  background: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.7)), url("/images/car-background.webp");
   background-size: cover;
   height: 85vh;
 }
